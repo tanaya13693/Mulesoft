@@ -1,0 +1,16 @@
+{
+    "inputMessageMetadata": {
+        "messagePayload": {
+            "connectorName": "#_custom_mule_metadata_type_#",
+            "typeId": "idocXml"
+        }
+    },
+    "outputMessageMetadata": {
+        "messagePayload": {
+            "connectorName": "#_custom_mule_metadata_type_#",
+            "typeId": "idocXml"
+        }
+    },
+    "id": "2d3709db-6644-4dfb-a11c-30091ec60fcb",
+    "version": "5.2.0.0"
+}

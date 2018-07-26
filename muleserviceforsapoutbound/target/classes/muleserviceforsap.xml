@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:file="http://www.mulesoft.org/schema/mule/file" xmlns:metadata="http://www.mulesoft.org/schema/mule/metadata" xmlns:dw="http://www.mulesoft.org/schema/mule/ee/dw" xmlns:sap="http://www.mulesoft.org/schema/mule/sap" xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:spring="http://www.springframework.org/schema/beans" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-current.xsd
+http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd
+http://www.mulesoft.org/schema/mule/ee/dw http://www.mulesoft.org/schema/mule/ee/dw/current/dw.xsd
+http://www.mulesoft.org/schema/mule/sap http://www.mulesoft.org/schema/mule/sap/current/mule-sap.xsd
+http://www.mulesoft.org/schema/mule/file http://www.mulesoft.org/schema/mule/file/current/mule-file.xsd">
+    <http:listener-config name="HTTP_Listener_Configuration" host="0.0.0.0" port="8090" doc:name="HTTP Listener Configuration"/>
+    <sap:connector name="SAP" jcoAsHost="${jcoAsHost}" jcoUser="${jcoUser}" jcoPasswd="Initial1" jcoSysnr="${jcoSysnr}" jcoClient="${jcoClient}" jcoLang="${jcoLang}" validateConnections="true" doc:name="SAP"/>
+    <flow name="muleserviceforsapFlow">
+        <http:listener config-ref="HTTP_Listener_Configuration" path="/sapidoc" allowedMethods="POST" doc:name="HTTP"/>
+        <dw:transform-message doc:name="IDoc" metadata:id="2d3709db-6644-4dfb-a11c-30091ec60fcb">
+            <dw:input-payload doc:sample="C:\Users\tvadgave\Desktop\Mulesoft Initiative\idoc.xml" mimeType="application/xml"/>
+            <dw:set-payload><![CDATA[%dw 1.0
+%output application/xml
+---
+{
+	DEBMAS01: {
+		IDOC @(BEGIN: "0" + payload.DEBMAS01.IDOC.@BEGIN): {
+			"EDI_DC40" @(SEGMENT: "1"): {
+			} ++ payload.DEBMAS01.IDOC.EDI_DC40,
+			"E1KNA1M" @(SEGMENT: "1"): {
+			}++ payload.DEBMAS01.IDOC.E1KNA1M
+		}
+	}
+}]]></dw:set-payload>
+        </dw:transform-message>
+        <sap:outbound-endpoint exchange-pattern="request-response" connector-ref="SAP" type="idoc" functionName="DEBMAS01"  outputXml="true" responseTimeout="10000" doc:name="SAP" rfcType="trfc">
+
+        </sap:outbound-endpoint>
+        <logger message="Idoc Successfully posted on SAP server" level="INFO" doc:name="Logger"/>
+
+    </flow>
+</mule>

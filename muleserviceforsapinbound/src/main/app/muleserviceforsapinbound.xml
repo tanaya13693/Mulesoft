@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:file="http://www.mulesoft.org/schema/mule/file" xmlns:sap="http://www.mulesoft.org/schema/mule/sap" xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:spring="http://www.springframework.org/schema/beans" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-current.xsd
+http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/sap http://www.mulesoft.org/schema/mule/sap/current/mule-sap.xsd
+http://www.mulesoft.org/schema/mule/file http://www.mulesoft.org/schema/mule/file/current/mule-file.xsd">
+    <sap:connector name="SAP" jcoAsHost="35.224.43.183" jcoUser="ASWAPNADATWA" jcoPasswd="Initial1" jcoSysnr="01" jcoClient="100" jcoLang="EN" validateConnections="true" doc:name="SAP"/>
+    <flow name="muleserviceforsapinboundFlow">
+        <sap:inbound-endpoint exchange-pattern="request-response" type="idoc" functionName="MATMAS01" outputXml="true" responseTimeout="10000" doc:name="SAP" connector-ref="SAP" jcoConnectionCount="5" jcoGwHost="35.224.43.183" jcoGwService="3301" jcoProgramId="BOOMI" rfcType="trfc"/>
+        <logger level="INFO" doc:name="Logger"/>
+        <file:outbound-endpoint path="C:\Users\tvadgave\Desktop\Mulesoft Initiative\Documentation\Mule_SAP doc" outputPattern="idoc.xml" responseTimeout="10000" doc:name="File"/>
+    </flow>
+</mule>

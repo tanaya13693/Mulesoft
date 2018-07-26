@@ -1,0 +1,3336 @@
+
+**** Error file opened at 20180507 183921 Eastern Daylight Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Mon May 07 18:39:21,199<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+LOCATION    SAP-Gateway on host hanamldemo.c.sap-deloitte.internal /
+            sapgw01
+ERROR       registration of tp BOOMI from PROXY host
+            pool-108-28-18-140.washdc.fios.verizon.net not allowed
+TIME        Mon May  7 22:39:20 2018
+RELEASE     749
+COMPONENT   SAP-Gateway
+VERSION     2
+RC          756
+MODULE      /bas/749_REL/src/krn/si/gw/gwxxrd.c
+LINE        3660
+COUNTER     50851
+
+    Return code: RFCIO_ERROR_REGISTRATION_DENIED(35)<
+
+
+
+Error:  >Mon May 07 18:39:21,485<    
+>RfcIoException:
+    message: no message received
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [2] >Mon May 07 18:39:21,485<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: no message received
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Mon May 07 18:39:21,485<    
+>RfcIoException:
+    message: no message received
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [1] >Mon May 07 18:39:21,485<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: no message received
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Mon May 07 18:39:21,485<    
+>RfcIoException:
+    message: no message received
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [3] >Mon May 07 18:39:21,485<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: no message received
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20180517 122654 Eastern Daylight Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Thu May 17 12:26:54,738<    RfcException:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=BOOMI GWHOST=35.192.149.212 GWSERV=3301
+
+ERROR       partner '35.192.149.212:3301' not reached
+TIME        Thu May 17 12:26:54 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 35.192.149.212:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     1
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu May 17 12:27:16,727<    RfcException:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=BOOMI GWHOST=35.192.149.212 GWSERV=3301
+
+ERROR       partner '35.192.149.212:3301' not reached
+TIME        Thu May 17 12:27:16 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 35.192.149.212:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu May 17 12:27:38,740<    RfcException:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=BOOMI GWHOST=35.192.149.212 GWSERV=3301
+
+ERROR       partner '35.192.149.212:3301' not reached
+TIME        Thu May 17 12:27:38 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 35.192.149.212:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     3
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20180517 122938 Eastern Daylight Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Thu May 17 12:29:38,072<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+LOCATION    SAP-Gateway on host hanamldemo.c.sap-deloitte.internal /
+            sapgw01
+ERROR       registration of tp BOOMI from PROXY host
+            pool-108-28-18-140.washdc.fios.verizon.net not allowed
+TIME        Thu May 17 16:29:37 2018
+RELEASE     749
+COMPONENT   SAP-Gateway
+VERSION     2
+RC          756
+MODULE      /bas/749_REL/src/krn/si/gw/gwxxrd.c
+LINE        3660
+COUNTER     37604
+
+    Return code: RFCIO_ERROR_REGISTRATION_DENIED(35)<
+
+
+
+Error:  >Thu May 17 12:29:38,328<    
+>RfcIoException:
+    message: no message received
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [2] >Thu May 17 12:29:38,329<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: no message received
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu May 17 12:29:38,329<    
+>RfcIoException:
+    message: no message received
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [1] >Thu May 17 12:29:38,329<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: no message received
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu May 17 12:29:38,329<    
+>RfcIoException:
+    message: no message received
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [3] >Thu May 17 12:29:38,330<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: no message received
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20180517 123746 Eastern Daylight Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Thu May 17 12:37:46,962<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+LOCATION    SAP-Gateway on host hanamldemo.c.sap-deloitte.internal /
+            sapgw01
+ERROR       registration of tp BOOMI from PROXY host
+            pool-108-28-18-140.washdc.fios.verizon.net not allowed
+TIME        Thu May 17 16:37:46 2018
+RELEASE     749
+COMPONENT   SAP-Gateway
+VERSION     2
+RC          756
+MODULE      /bas/749_REL/src/krn/si/gw/gwxxrd.c
+LINE        3660
+COUNTER     37726
+
+    Return code: RFCIO_ERROR_REGISTRATION_DENIED(35)<
+
+
+
+Error:  >Thu May 17 12:37:47,237<    
+>RfcIoException:
+    message: no message received
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [2] >Thu May 17 12:37:47,238<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: no message received
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu May 17 12:37:47,238<    
+>RfcIoException:
+    message: no message received
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [1] >Thu May 17 12:37:47,239<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: no message received
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu May 17 12:37:47,240<    
+>RfcIoException:
+    message: no message received
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [3] >Thu May 17 12:37:47,240<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: no message received
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20180517 132842 Eastern Daylight Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Thu May 17 13:28:42,994<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+LOCATION    SAP-Gateway on host hanamldemo.c.sap-deloitte.internal /
+            sapgw01
+ERROR       registration of tp BOOMI from PROXY host
+            pool-108-28-18-140.washdc.fios.verizon.net not allowed
+TIME        Thu May 17 17:28:42 2018
+RELEASE     749
+COMPONENT   SAP-Gateway
+VERSION     2
+RC          756
+MODULE      /bas/749_REL/src/krn/si/gw/gwxxrd.c
+LINE        3660
+COUNTER     38194
+
+    Return code: RFCIO_ERROR_REGISTRATION_DENIED(35)<
+
+
+
+Error:  >Thu May 17 13:28:43,280<    
+>RfcIoException:
+    message: no message received
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [2] >Thu May 17 13:28:43,280<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: no message received
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu May 17 13:28:43,280<    
+>RfcIoException:
+    message: no message received
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [1] >Thu May 17 13:28:43,280<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: no message received
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu May 17 13:28:43,280<    
+>RfcIoException:
+    message: no message received
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [3] >Thu May 17 13:28:43,280<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: no message received
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20180517 133829 Eastern Daylight Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Thu May 17 13:38:29,528<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+LOCATION    SAP-Gateway on host hanamldemo.c.sap-deloitte.internal /
+            sapgw01
+ERROR       registration of tp BOOMI from PROXY host
+            pool-108-28-18-140.washdc.fios.verizon.net not allowed
+TIME        Thu May 17 17:38:28 2018
+RELEASE     749
+COMPONENT   SAP-Gateway
+VERSION     2
+RC          756
+MODULE      /bas/749_REL/src/krn/si/gw/gwxxrd.c
+LINE        3660
+COUNTER     38309
+
+    Return code: RFCIO_ERROR_REGISTRATION_DENIED(35)<
+
+
+
+Error:  >Thu May 17 13:38:29,806<    
+>RfcIoException:
+    message: no message received
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [2] >Thu May 17 13:38:29,807<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: no message received
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu May 17 13:38:29,808<    
+>RfcIoException:
+    message: no message received
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [1] >Thu May 17 13:38:29,809<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: no message received
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu May 17 13:38:29,809<    
+>RfcIoException:
+    message: no message received
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [3] >Thu May 17 13:38:29,810<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: no message received
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20180517 140649 Eastern Daylight Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Thu May 17 14:06:49,237<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+LOCATION    SAP-Gateway on host hanamldemo.c.sap-deloitte.internal /
+            sapgw01
+ERROR       registration of tp BOOMI from PROXY host
+            pool-108-28-18-140.washdc.fios.verizon.net not allowed
+TIME        Thu May 17 18:06:48 2018
+RELEASE     749
+COMPONENT   SAP-Gateway
+VERSION     2
+RC          756
+MODULE      /bas/749_REL/src/krn/si/gw/gwxxrd.c
+LINE        3660
+COUNTER     38579
+
+    Return code: RFCIO_ERROR_REGISTRATION_DENIED(35)<
+
+
+
+Error:  >Thu May 17 14:06:49,512<    
+>RfcIoException:
+    message: no message received
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [2] >Thu May 17 14:06:49,512<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: no message received
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu May 17 14:06:49,512<    
+>RfcIoException:
+    message: no message received
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [1] >Thu May 17 14:06:49,512<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: no message received
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu May 17 14:06:49,528<    
+>RfcIoException:
+    message: no message received
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [3] >Thu May 17 14:06:49,528<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: no message received
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20180517 171221 Eastern Daylight Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Thu May 17 17:12:21,019<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+LOCATION    SAP-Gateway on host hanamldemo.c.sap-deloitte.internal /
+            sapgw01
+ERROR       registration of tp BOOMI from PROXY host
+            pool-108-28-18-140.washdc.fios.verizon.net not allowed
+TIME        Thu May 17 21:12:20 2018
+RELEASE     749
+COMPONENT   SAP-Gateway
+VERSION     2
+RC          756
+MODULE      /bas/749_REL/src/krn/si/gw/gwxxrd.c
+LINE        3660
+COUNTER     40097
+
+    Return code: RFCIO_ERROR_REGISTRATION_DENIED(35)<
+
+
+
+Error:  >Thu May 17 17:12:21,242<    
+>RfcIoException:
+    message: no message received
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [2] >Thu May 17 17:12:21,243<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: no message received
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu May 17 17:12:21,244<    
+>RfcIoException:
+    message: no message received
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [1] >Thu May 17 17:12:21,244<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: no message received
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu May 17 17:12:21,245<    
+>RfcIoException:
+    message: no message received
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [3] >Thu May 17 17:12:21,245<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: no message received
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20180517 183945 Eastern Daylight Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Thu May 17 18:39:45,310<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+LOCATION    SAP-Gateway on host hanamldemo.c.sap-deloitte.internal /
+            sapgw01
+ERROR       registration of tp BOOMI from PROXY host
+            pool-108-28-18-140.washdc.fios.verizon.net not allowed
+TIME        Thu May 17 22:39:45 2018
+RELEASE     749
+COMPONENT   SAP-Gateway
+VERSION     2
+RC          756
+MODULE      /bas/749_REL/src/krn/si/gw/gwxxrd.c
+LINE        3660
+COUNTER     40816
+
+    Return code: RFCIO_ERROR_REGISTRATION_DENIED(35)<
+
+
+
+Error:  >Thu May 17 18:39:45,555<    
+>RfcIoException:
+    message: no message received
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [2] >Thu May 17 18:39:45,556<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: no message received
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu May 17 18:39:45,557<    
+>RfcIoException:
+    message: no message received
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [1] >Thu May 17 18:39:45,557<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: no message received
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu May 17 18:39:45,558<    
+>RfcIoException:
+    message: no message received
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [3] >Thu May 17 18:39:45,558<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: no message received
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20180517 192751 Eastern Daylight Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Thu May 17 19:27:51,896<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+LOCATION    SAP-Gateway on host hanamldemo.c.sap-deloitte.internal /
+            sapgw01
+ERROR       registration of tp BOOMI from PROXY host
+            pool-108-28-18-140.washdc.fios.verizon.net not allowed
+TIME        Thu May 17 23:27:51 2018
+RELEASE     749
+COMPONENT   SAP-Gateway
+VERSION     2
+RC          756
+MODULE      /bas/749_REL/src/krn/si/gw/gwxxrd.c
+LINE        3660
+COUNTER     41223
+
+    Return code: RFCIO_ERROR_REGISTRATION_DENIED(35)<
+
+
+
+Error:  >Thu May 17 19:27:52,141<    
+>RfcIoException:
+    message: no message received
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [2] >Thu May 17 19:27:52,142<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: no message received
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu May 17 19:27:52,143<    
+>RfcIoException:
+    message: no message received
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [1] >Thu May 17 19:27:52,143<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: no message received
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu May 17 19:27:52,143<    
+>RfcIoException:
+    message: no message received
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [3] >Thu May 17 19:27:52,143<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: no message received
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20180517 193153 Eastern Daylight Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Thu May 17 19:31:53,932<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+LOCATION    SAP-Gateway on host hanamldemo.c.sap-deloitte.internal /
+            sapgw01
+ERROR       registration of tp BOOMI from PROXY host
+            pool-108-28-18-140.washdc.fios.verizon.net not allowed
+TIME        Thu May 17 23:31:53 2018
+RELEASE     749
+COMPONENT   SAP-Gateway
+VERSION     2
+RC          756
+MODULE      /bas/749_REL/src/krn/si/gw/gwxxrd.c
+LINE        3660
+COUNTER     41271
+
+    Return code: RFCIO_ERROR_REGISTRATION_DENIED(35)<
+
+
+
+Error:  >Thu May 17 19:31:54,185<    
+>RfcIoException:
+    message: no message received
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [2] >Thu May 17 19:31:54,186<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: no message received
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu May 17 19:31:54,187<    
+>RfcIoException:
+    message: no message received
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [1] >Thu May 17 19:31:54,187<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: no message received
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu May 17 19:31:54,188<    
+>RfcIoException:
+    message: no message received
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [3] >Thu May 17 19:31:54,188<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: no message received
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20180517 200537 Eastern Daylight Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Thu May 17 20:05:37,961<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Thu May 17 20:05:37 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:58895
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     1
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Thu May 17 20:05:37,973<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Thu May 17 20:05:37 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:58896
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     1
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Thu May 17 20:05:37,973<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Thu May 17 20:05:37 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:58897
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     1
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Thu May 17 20:05:37,973<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Thu May 17 20:05:37 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:58899
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     1
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Thu May 17 20:05:37,977<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Thu May 17 20:05:37 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:58898
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     1
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Thu May 17 20:05:37,997<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Thu May 17 20:05:37 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:58896
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     1
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Thu May 17 20:05:37,997<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Thu May 17 20:05:37 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:58898
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     1
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Thu May 17 20:05:37,997<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Thu May 17 20:05:37 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:58895
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     1
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Thu May 17 20:05:37,997<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Thu May 17 20:05:37 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:58897
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     1
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Thu May 17 20:05:38,001<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Thu May 17 20:05:37 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:58899
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     1
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [3] >Thu May 17 20:05:38,001<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Thu May 17 20:05:37 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:58897
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     1
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error: [1] >Thu May 17 20:05:38,001<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Thu May 17 20:05:37 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:58895
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     1
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error: [2] >Thu May 17 20:05:38,001<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Thu May 17 20:05:37 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:58896
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     1
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error: [4] >Thu May 17 20:05:38,001<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Thu May 17 20:05:37 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:58898
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     1
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error: [5] >Thu May 17 20:05:38,001<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Thu May 17 20:05:37 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:58899
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     1
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu May 17 20:05:39,837<    RfcException:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=BOOMI GWHOST=35.193.170.156 GWSERV=3301
+
+ERROR       partner '35.193.170.156:3301' not reached
+TIME        Thu May 17 20:05:39 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 35.193.170.156:3301
+SYSTEM CALL connect
+ERRNO       10051
+ERRNO TEXT  WSAENETUNREACH: Network is unreachable
+COUNTER     1
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu May 17 20:05:41,843<    RfcException:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=BOOMI GWHOST=35.193.170.156 GWSERV=3301
+
+ERROR       partner '35.193.170.156:3301' not reached
+TIME        Thu May 17 20:05:41 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 35.193.170.156:3301
+SYSTEM CALL connect
+ERRNO       10051
+ERRNO TEXT  WSAENETUNREACH: Network is unreachable
+COUNTER     2
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu May 17 20:05:45,844<    RfcException:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=BOOMI GWHOST=35.193.170.156 GWSERV=3301
+
+ERROR       partner '35.193.170.156:3301' not reached
+TIME        Thu May 17 20:05:45 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 35.193.170.156:3301
+SYSTEM CALL connect
+ERRNO       10051
+ERRNO TEXT  WSAENETUNREACH: Network is unreachable
+COUNTER     3
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Thu May 17 20:05:49,857<    RfcException:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=BOOMI GWHOST=35.193.170.156 GWSERV=3301
+
+ERROR       partner '35.193.170.156:3301' not reached
+TIME        Thu May 17 20:05:49 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 35.193.170.156:3301
+SYSTEM CALL connect
+ERRNO       10051
+ERRNO TEXT  WSAENETUNREACH: Network is unreachable
+COUNTER     4
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Fri May 18 09:07:03,205<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Fri May 18 09:07:03 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:61778
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     2
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Fri May 18 09:07:03,209<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Fri May 18 09:07:03 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:61778
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     2
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [2] >Fri May 18 09:07:03,209<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Fri May 18 09:07:03 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:61778
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     2
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Fri May 18 09:07:03,237<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Fri May 18 09:07:03 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:61776
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     2
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Fri May 18 09:07:03,237<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Fri May 18 09:07:03 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:61776
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     2
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [1] >Fri May 18 09:07:03,245<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Fri May 18 09:07:03 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:61776
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     2
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Fri May 18 09:07:03,245<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Fri May 18 09:07:03 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:61783
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     2
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Fri May 18 09:07:03,249<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Fri May 18 09:07:03 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:61783
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     2
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [4] >Fri May 18 09:07:03,249<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Fri May 18 09:07:03 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:61783
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     2
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Fri May 18 09:07:03,261<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Fri May 18 09:07:03 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:61780
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     3
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Fri May 18 09:07:03,265<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Fri May 18 09:07:03 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:61784
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     2
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Fri May 18 09:07:03,269<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Fri May 18 09:07:03 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:61784
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     2
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [5] >Fri May 18 09:07:03,269<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Fri May 18 09:07:03 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:61784
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     2
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Fri May 18 09:07:03,273<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Fri May 18 09:07:03 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:61780
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     3
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [3] >Fri May 18 09:07:03,273<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Fri May 18 09:07:03 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:61780
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     3
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Fri May 18 09:18:37,006<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Fri May 18 09:18:37 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:62227
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     2
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Fri May 18 09:18:37,011<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Fri May 18 09:18:37 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:62224
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     4
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Fri May 18 09:18:37,012<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Fri May 18 09:18:37 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:62225
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     3
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Fri May 18 09:18:37,014<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Fri May 18 09:18:37 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:62226
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     3
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Fri May 18 09:18:37,017<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Fri May 18 09:18:37 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:62224
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     4
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Fri May 18 09:18:37,018<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Fri May 18 09:18:37 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:62225
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     3
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Fri May 18 09:18:37,018<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Fri May 18 09:18:37 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:62227
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     2
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Fri May 18 09:18:37,019<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Fri May 18 09:18:37 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:62226
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     3
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [5] >Fri May 18 09:18:37,019<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Fri May 18 09:18:37 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:62227
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     2
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error: [1] >Fri May 18 09:18:37,019<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Fri May 18 09:18:37 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:62224
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     4
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error: [3] >Fri May 18 09:18:37,020<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Fri May 18 09:18:37 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:62225
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     3
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error: [4] >Fri May 18 09:18:37,020<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Fri May 18 09:18:37 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:62226
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     3
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Fri May 18 09:18:37,023<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Fri May 18 09:18:37 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:62220
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     3
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Fri May 18 09:18:37,024<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Fri May 18 09:18:37 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:62220
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     3
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [2] >Fri May 18 09:18:37,024<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Fri May 18 09:18:37 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:62220
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     3
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Fri May 18 09:18:39,007<    RfcException:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=BOOMI GWHOST=35.193.170.156 GWSERV=3301
+
+ERROR       partner '35.193.170.156:3301' not reached
+TIME        Fri May 18 09:18:39 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 35.193.170.156:3301
+SYSTEM CALL connect
+ERRNO       10051
+ERRNO TEXT  WSAENETUNREACH: Network is unreachable
+COUNTER     5
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Fri May 18 09:18:41,008<    RfcException:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=BOOMI GWHOST=35.193.170.156 GWSERV=3301
+
+ERROR       partner '35.193.170.156:3301' not reached
+TIME        Fri May 18 09:18:41 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 35.193.170.156:3301
+SYSTEM CALL connect
+ERRNO       10051
+ERRNO TEXT  WSAENETUNREACH: Network is unreachable
+COUNTER     6
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Fri May 18 09:18:45,006<    RfcException:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=BOOMI GWHOST=35.193.170.156 GWSERV=3301
+
+ERROR       partner '35.193.170.156:3301' not reached
+TIME        Fri May 18 09:18:45 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 35.193.170.156:3301
+SYSTEM CALL connect
+ERRNO       10051
+ERRNO TEXT  WSAENETUNREACH: Network is unreachable
+COUNTER     7
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Fri May 18 09:18:49,008<    RfcException:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=BOOMI GWHOST=35.193.170.156 GWSERV=3301
+
+ERROR       partner '35.193.170.156:3301' not reached
+TIME        Fri May 18 09:18:49 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 35.193.170.156:3301
+SYSTEM CALL connect
+ERRNO       10051
+ERRNO TEXT  WSAENETUNREACH: Network is unreachable
+COUNTER     8
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Fri May 18 10:01:45,423<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Fri May 18 10:01:45 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:63105
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     3
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Fri May 18 10:01:45,423<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Fri May 18 10:01:45 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:63105
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     3
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [2] >Fri May 18 10:01:45,427<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Fri May 18 10:01:45 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:63105
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     3
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Fri May 18 10:01:45,427<    RfcException:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=BOOMI GWHOST=35.193.170.156 GWSERV=3301
+
+ERROR       partner '35.193.170.156:3301' not reached
+TIME        Fri May 18 10:01:45 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 35.193.170.156:3301
+SYSTEM CALL connect
+ERRNO       10051
+ERRNO TEXT  WSAENETUNREACH: Network is unreachable
+COUNTER     9
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Fri May 18 10:01:45,427<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Fri May 18 10:01:45 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:63111
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     5
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Fri May 18 10:01:45,431<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Fri May 18 10:01:45 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:63106
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     4
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Fri May 18 10:01:45,431<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Fri May 18 10:01:45 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:63111
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     5
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Fri May 18 10:01:45,431<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Fri May 18 10:01:45 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:63107
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     4
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Fri May 18 10:01:45,431<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Fri May 18 10:01:45 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:63103
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     4
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Fri May 18 10:01:45,431<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Fri May 18 10:01:45 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:63103
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     4
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Fri May 18 10:01:45,431<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Fri May 18 10:01:45 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:63107
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     4
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [4] >Fri May 18 10:01:45,431<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Fri May 18 10:01:45 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:63107
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     4
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error: [5] >Fri May 18 10:01:45,431<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Fri May 18 10:01:45 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:63111
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     5
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Fri May 18 10:01:45,435<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Fri May 18 10:01:45 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:63106
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     4
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [3] >Fri May 18 10:01:45,435<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Fri May 18 10:01:45 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:63106
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     4
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error: [1] >Fri May 18 10:01:45,435<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.193.170.156:3301' broken
+TIME        Fri May 18 10:01:45 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.193.170.156:3301; L=192.168.86.31:63103
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     4
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Fri May 18 10:01:47,428<    RfcException:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=BOOMI GWHOST=35.193.170.156 GWSERV=3301
+
+ERROR       partner '35.193.170.156:3301' not reached
+TIME        Fri May 18 10:01:47 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 35.193.170.156:3301
+SYSTEM CALL connect
+ERRNO       10051
+ERRNO TEXT  WSAENETUNREACH: Network is unreachable
+COUNTER     10
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Fri May 18 10:01:49,429<    RfcException:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=BOOMI GWHOST=35.193.170.156 GWSERV=3301
+
+ERROR       partner '35.193.170.156:3301' not reached
+TIME        Fri May 18 10:01:49 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 35.193.170.156:3301
+SYSTEM CALL connect
+ERRNO       10051
+ERRNO TEXT  WSAENETUNREACH: Network is unreachable
+COUNTER     11
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Fri May 18 10:01:53,433<    RfcException:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=BOOMI GWHOST=35.193.170.156 GWSERV=3301
+
+ERROR       partner '35.193.170.156:3301' not reached
+TIME        Fri May 18 10:01:53 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 35.193.170.156:3301
+SYSTEM CALL connect
+ERRNO       10051
+ERRNO TEXT  WSAENETUNREACH: Network is unreachable
+COUNTER     12
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Fri May 18 10:02:01,446<    RfcException:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=BOOMI GWHOST=35.193.170.156 GWSERV=3301
+
+ERROR       partner '35.193.170.156:3301' not reached
+TIME        Fri May 18 10:02:01 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 35.193.170.156:3301
+SYSTEM CALL connect
+ERRNO       10051
+ERRNO TEXT  WSAENETUNREACH: Network is unreachable
+COUNTER     13
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Fri May 18 10:02:38,479<    RfcException:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=BOOMI GWHOST=35.193.170.156 GWSERV=3301
+
+ERROR       partner '35.193.170.156:3301' not reached
+TIME        Fri May 18 10:02:38 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 35.193.170.156:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     14
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Fri May 18 10:03:10,513<    RfcException:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=BOOMI GWHOST=35.193.170.156 GWSERV=3301
+
+ERROR       partner '35.193.170.156:3301' not reached
+TIME        Fri May 18 10:03:10 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 35.193.170.156:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     15
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Fri May 18 10:06:29,634<    RfcException:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=BOOMI GWHOST=35.193.170.156 GWSERV=3301
+
+ERROR       partner '35.193.170.156:3301' not reached
+TIME        Fri May 18 10:06:29 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 35.193.170.156:3301
+SYSTEM CALL connect
+ERRNO       10053
+ERRNO TEXT  WSAECONNABORTED: Software caused connection abort
+COUNTER     16
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Fri May 18 10:08:53,311<    RfcException:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=BOOMI GWHOST=35.193.170.156 GWSERV=3301
+
+ERROR       partner '35.193.170.156:3301' not reached
+TIME        Fri May 18 10:08:53 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 35.193.170.156:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     17
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20180518 113517 Eastern Daylight Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Fri May 18 11:35:17,341<    RfcException:
+	message: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ASWAPNADATWA@35.193.170.156:01:100?RPZdQepvR3FTNm+qEJel0Q== ASHOST=35.193.170.156 SYSNR=01 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '35.193.170.156:3301' not reached
+TIME        Fri May 18 11:35:17 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 35.193.170.156:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Fri May 18 11:35:38,515<    RfcException:
+	message: Connect to SAP gateway failed
+Connection parameters: TYPE=A DEST=ASWAPNADATWA@35.193.170.156:01:100?RPZdQepvR3FTNm+qEJel0Q== ASHOST=35.193.170.156 SYSNR=01 PCS=1
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '35.193.170.156:3301' not reached
+TIME        Fri May 18 11:35:38 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 35.193.170.156:3301
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20180521 093644 Eastern Daylight Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error: [5] >Mon May 21 09:36:44,732<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: check TID fault: No transaction handler is installed. Unable to process tRFC/qRFC requests.
+	return code: RFC_FAILURE (1)
+	error group: 104
+	key: RFC_ERROR_SYSTEM_FAILURE
+
+Info:  >Mon May 21 09:36:44,827<    [JCoRFC] onConfirm failed: com.sap.conn.jco.JCoRuntimeException: (136) JCO_ERROR_ILLEGAL_STATE: No transaction handler is installed. Unable to process tRFC/qRFC requests. com.sap.conn.jco.JCoRuntimeException: (136) JCO_ERROR_ILLEGAL_STATE: No transaction handler is installed. Unable to process tRFC/qRFC requests.
+	at com.sap.conn.jco.rt.DefaultServerWorker$DenyTxHandler.confirmTID(DefaultServerWorker.java:1180)
+	at com.sap.conn.jco.rt.DefaultServerWorker.onConfirmTID(DefaultServerWorker.java:215)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.handletRfcConfirm(MiddlewareJavaRfc.java:3164)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.listen(MiddlewareJavaRfc.java:2674)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:275)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:356)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:232)
+	at java.lang.Thread.run(Unknown Source)
+
+
+Exception thrown [Mon May 21 09:36:44,827]: Exception thrown in JCo Server
+com.sap.conn.jco.JCoRuntimeException: (136) JCO_ERROR_ILLEGAL_STATE: No transaction handler is installed. Unable to process tRFC/qRFC requests.
+	at com.sap.conn.jco.rt.DefaultServerWorker$DenyTxHandler.confirmTID(DefaultServerWorker.java:1180)
+	at com.sap.conn.jco.rt.DefaultServerWorker.onConfirmTID(DefaultServerWorker.java:215)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.handletRfcConfirm(MiddlewareJavaRfc.java:3164)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.listen(MiddlewareJavaRfc.java:2674)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:275)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:356)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:232)
+	at java.lang.Thread.run(Unknown Source)
+
+
+**** Error file opened at 20180521 093905 Eastern Daylight Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error: [5] >Mon May 21 09:39:05,730<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: check TID fault: No transaction handler is installed. Unable to process tRFC/qRFC requests.
+	return code: RFC_FAILURE (1)
+	error group: 104
+	key: RFC_ERROR_SYSTEM_FAILURE
+
+Info:  >Mon May 21 09:39:05,820<    [JCoRFC] onConfirm failed: com.sap.conn.jco.JCoRuntimeException: (136) JCO_ERROR_ILLEGAL_STATE: No transaction handler is installed. Unable to process tRFC/qRFC requests. com.sap.conn.jco.JCoRuntimeException: (136) JCO_ERROR_ILLEGAL_STATE: No transaction handler is installed. Unable to process tRFC/qRFC requests.
+	at com.sap.conn.jco.rt.DefaultServerWorker$DenyTxHandler.confirmTID(DefaultServerWorker.java:1180)
+	at com.sap.conn.jco.rt.DefaultServerWorker.onConfirmTID(DefaultServerWorker.java:215)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.handletRfcConfirm(MiddlewareJavaRfc.java:3164)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.listen(MiddlewareJavaRfc.java:2674)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:275)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:356)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:232)
+	at java.lang.Thread.run(Unknown Source)
+
+
+Exception thrown [Mon May 21 09:39:05,821]: Exception thrown in JCo Server
+com.sap.conn.jco.JCoRuntimeException: (136) JCO_ERROR_ILLEGAL_STATE: No transaction handler is installed. Unable to process tRFC/qRFC requests.
+	at com.sap.conn.jco.rt.DefaultServerWorker$DenyTxHandler.confirmTID(DefaultServerWorker.java:1180)
+	at com.sap.conn.jco.rt.DefaultServerWorker.onConfirmTID(DefaultServerWorker.java:215)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.handletRfcConfirm(MiddlewareJavaRfc.java:3164)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.listen(MiddlewareJavaRfc.java:2674)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:275)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:356)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:232)
+	at java.lang.Thread.run(Unknown Source)
+
+Error: [2] >Mon May 21 09:42:29,831<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: check TID fault: No transaction handler is installed. Unable to process tRFC/qRFC requests.
+	return code: RFC_FAILURE (1)
+	error group: 104
+	key: RFC_ERROR_SYSTEM_FAILURE
+
+Info:  >Mon May 21 09:42:29,910<    [JCoRFC] onConfirm failed: com.sap.conn.jco.JCoRuntimeException: (136) JCO_ERROR_ILLEGAL_STATE: No transaction handler is installed. Unable to process tRFC/qRFC requests. com.sap.conn.jco.JCoRuntimeException: (136) JCO_ERROR_ILLEGAL_STATE: No transaction handler is installed. Unable to process tRFC/qRFC requests.
+	at com.sap.conn.jco.rt.DefaultServerWorker$DenyTxHandler.confirmTID(DefaultServerWorker.java:1180)
+	at com.sap.conn.jco.rt.DefaultServerWorker.onConfirmTID(DefaultServerWorker.java:215)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.handletRfcConfirm(MiddlewareJavaRfc.java:3164)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.listen(MiddlewareJavaRfc.java:2674)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:275)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:356)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:232)
+	at java.lang.Thread.run(Unknown Source)
+
+
+Exception thrown [Mon May 21 09:42:29,922]: Exception thrown in JCo Server
+com.sap.conn.jco.JCoRuntimeException: (136) JCO_ERROR_ILLEGAL_STATE: No transaction handler is installed. Unable to process tRFC/qRFC requests.
+	at com.sap.conn.jco.rt.DefaultServerWorker$DenyTxHandler.confirmTID(DefaultServerWorker.java:1180)
+	at com.sap.conn.jco.rt.DefaultServerWorker.onConfirmTID(DefaultServerWorker.java:215)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.handletRfcConfirm(MiddlewareJavaRfc.java:3164)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.listen(MiddlewareJavaRfc.java:2674)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:275)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:356)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:232)
+	at java.lang.Thread.run(Unknown Source)
+
+
+**** Error file opened at 20180521 100740 Eastern Daylight Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Mon May 21 10:07:40,921<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.224.43.183:3301' broken
+TIME        Mon May 21 10:07:40 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.224.43.183:3301; L=192.168.86.50:55599
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     1
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Mon May 21 10:07:40,973<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.224.43.183:3301' broken
+TIME        Mon May 21 10:07:40 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.224.43.183:3301; L=192.168.86.50:55602
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     1
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Mon May 21 10:07:40,981<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.224.43.183:3301' broken
+TIME        Mon May 21 10:07:40 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.224.43.183:3301; L=192.168.86.50:55602
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     1
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [5] >Mon May 21 10:07:40,985<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.224.43.183:3301' broken
+TIME        Mon May 21 10:07:40 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.224.43.183:3301; L=192.168.86.50:55602
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     1
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Mon May 21 10:07:40,985<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.224.43.183:3301' broken
+TIME        Mon May 21 10:07:40 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.224.43.183:3301; L=192.168.86.50:55598
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     1
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Mon May 21 10:07:40,985<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.224.43.183:3301' broken
+TIME        Mon May 21 10:07:40 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.224.43.183:3301; L=192.168.86.50:55598
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     1
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [1] >Mon May 21 10:07:40,985<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.224.43.183:3301' broken
+TIME        Mon May 21 10:07:40 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.224.43.183:3301; L=192.168.86.50:55598
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     1
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Mon May 21 10:07:40,985<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       connection to partner '35.224.43.183:3301' broken
+TIME        Mon May 21 10:07:40 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.224.43.183:3301; L=192.168.86.50:55601
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     4
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Mon May 21 10:07:40,985<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       connection to partner '35.224.43.183:3301' broken
+TIME        Mon May 21 10:07:40 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.224.43.183:3301; L=192.168.86.50:55601
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     4
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [4] >Mon May 21 10:07:40,985<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       connection to partner '35.224.43.183:3301' broken
+TIME        Mon May 21 10:07:40 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.224.43.183:3301; L=192.168.86.50:55601
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     4
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Mon May 21 10:07:40,989<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.224.43.183:3301' broken
+TIME        Mon May 21 10:07:40 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.224.43.183:3301; L=192.168.86.50:55599
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     1
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [2] >Mon May 21 10:07:40,989<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.224.43.183:3301' broken
+TIME        Mon May 21 10:07:40 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.224.43.183:3301; L=192.168.86.50:55599
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     1
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Mon May 21 10:07:41,005<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.224.43.183:3301' broken
+TIME        Mon May 21 10:07:40 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.224.43.183:3301; L=192.168.86.50:55600
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     1
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Mon May 21 10:07:41,005<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.224.43.183:3301' broken
+TIME        Mon May 21 10:07:40 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.224.43.183:3301; L=192.168.86.50:55600
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     1
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [3] >Mon May 21 10:07:41,005<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.224.43.183:3301' broken
+TIME        Mon May 21 10:07:40 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.224.43.183:3301; L=192.168.86.50:55600
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     1
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Mon May 21 10:07:42,914<    RfcException:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=BOOMI GWHOST=35.224.43.183 GWSERV=3301
+
+ERROR       partner '35.224.43.183:3301' not reached
+TIME        Mon May 21 10:07:42 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 35.224.43.183:3301
+SYSTEM CALL connect
+ERRNO       10051
+ERRNO TEXT  WSAENETUNREACH: Network is unreachable
+COUNTER     1
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Mon May 21 10:07:44,929<    RfcException:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=BOOMI GWHOST=35.224.43.183 GWSERV=3301
+
+ERROR       partner '35.224.43.183:3301' not reached
+TIME        Mon May 21 10:07:44 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 35.224.43.183:3301
+SYSTEM CALL connect
+ERRNO       10051
+ERRNO TEXT  WSAENETUNREACH: Network is unreachable
+COUNTER     2
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Mon May 21 10:07:46,918<    RfcException:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=BOOMI GWHOST=35.224.43.183 GWSERV=3301
+
+ERROR       partner '35.224.43.183:3301' not reached
+TIME        Mon May 21 10:07:46 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 35.224.43.183:3301
+SYSTEM CALL connect
+ERRNO       10051
+ERRNO TEXT  WSAENETUNREACH: Network is unreachable
+COUNTER     3
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Mon May 21 10:07:50,923<    RfcException:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=BOOMI GWHOST=35.224.43.183 GWSERV=3301
+
+ERROR       partner '35.224.43.183:3301' not reached
+TIME        Mon May 21 10:07:50 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 35.224.43.183:3301
+SYSTEM CALL connect
+ERRNO       10051
+ERRNO TEXT  WSAENETUNREACH: Network is unreachable
+COUNTER     4
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+
+**** Error file opened at 20180521 112004 Eastern Daylight Time Rel. 3.0.18 (2018-03-23) [721.1016]
+Error:  >Mon May 21 11:20:04,113<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.224.43.183:3301' broken
+TIME        Mon May 21 11:20:03 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.224.43.183:3301; L=192.168.86.50:58655
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     1
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Mon May 21 11:20:04,125<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.224.43.183:3301' broken
+TIME        Mon May 21 11:20:03 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.224.43.183:3301; L=192.168.86.50:58657
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     1
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Mon May 21 11:20:04,125<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.224.43.183:3301' broken
+TIME        Mon May 21 11:20:04 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.224.43.183:3301; L=192.168.86.50:58653
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     1
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Mon May 21 11:20:04,129<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       connection to partner '35.224.43.183:3301' broken
+TIME        Mon May 21 11:20:03 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.224.43.183:3301; L=192.168.86.50:58654
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     4
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Mon May 21 11:20:04,133<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.224.43.183:3301' broken
+TIME        Mon May 21 11:20:03 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.224.43.183:3301; L=192.168.86.50:58656
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     1
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error:  >Mon May 21 11:20:04,133<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.224.43.183:3301' broken
+TIME        Mon May 21 11:20:03 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.224.43.183:3301; L=192.168.86.50:58656
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     1
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [4] >Mon May 21 11:20:04,133<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.224.43.183:3301' broken
+TIME        Mon May 21 11:20:03 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.224.43.183:3301; L=192.168.86.50:58656
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     1
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Mon May 21 11:20:04,133<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       connection to partner '35.224.43.183:3301' broken
+TIME        Mon May 21 11:20:03 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.224.43.183:3301; L=192.168.86.50:58654
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     4
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [2] >Mon May 21 11:20:04,137<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       connection to partner '35.224.43.183:3301' broken
+TIME        Mon May 21 11:20:03 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.224.43.183:3301; L=192.168.86.50:58654
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     4
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Mon May 21 11:20:04,137<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.224.43.183:3301' broken
+TIME        Mon May 21 11:20:04 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.224.43.183:3301; L=192.168.86.50:58653
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     1
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [1] >Mon May 21 11:20:04,137<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.224.43.183:3301' broken
+TIME        Mon May 21 11:20:04 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.224.43.183:3301; L=192.168.86.50:58653
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     1
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Mon May 21 11:20:04,141<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.224.43.183:3301' broken
+TIME        Mon May 21 11:20:03 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.224.43.183:3301; L=192.168.86.50:58657
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     1
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [5] >Mon May 21 11:20:04,141<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.224.43.183:3301' broken
+TIME        Mon May 21 11:20:03 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.224.43.183:3301; L=192.168.86.50:58657
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     1
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Mon May 21 11:20:04,145<    
+>RfcIoException:
+    message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.224.43.183:3301' broken
+TIME        Mon May 21 11:20:03 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.224.43.183:3301; L=192.168.86.50:58655
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     1
+
+    Return code: RFCIO_ERROR_SYSERROR(5)<
+
+
+
+Error: [3] >Mon May 21 11:20:04,145<    RfcException raised by system [USMCLTVADGAVE9|BOOMI]:
+	message: CPIC-CALL: SAP_CMACCPTP3 on convId:         
+
+ERROR       connection to partner '35.224.43.183:3301' broken
+TIME        Mon May 21 11:20:03 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5088
+DETAIL      NiIRead: P=35.224.43.183:3301; L=192.168.86.50:58655
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     1
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Mon May 21 11:20:06,012<    RfcException:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=BOOMI GWHOST=35.224.43.183 GWSERV=3301
+
+ERROR       partner '35.224.43.183:3301' not reached
+TIME        Mon May 21 11:20:06 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 35.224.43.183:3301
+SYSTEM CALL connect
+ERRNO       10051
+ERRNO TEXT  WSAENETUNREACH: Network is unreachable
+COUNTER     1
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Mon May 21 11:20:08,016<    RfcException:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=BOOMI GWHOST=35.224.43.183 GWSERV=3301
+
+ERROR       partner '35.224.43.183:3301' not reached
+TIME        Mon May 21 11:20:08 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 35.224.43.183:3301
+SYSTEM CALL connect
+ERRNO       10051
+ERRNO TEXT  WSAENETUNREACH: Network is unreachable
+COUNTER     2
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Mon May 21 11:20:10,017<    RfcException:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=BOOMI GWHOST=35.224.43.183 GWSERV=3301
+
+ERROR       partner '35.224.43.183:3301' not reached
+TIME        Mon May 21 11:20:10 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 35.224.43.183:3301
+SYSTEM CALL connect
+ERRNO       10051
+ERRNO TEXT  WSAENETUNREACH: Network is unreachable
+COUNTER     3
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+
+Error:  >Mon May 21 11:20:14,024<    RfcException:
+	message: Connect to SAP gateway failed
+	Connection parameters: PROGID=BOOMI GWHOST=35.224.43.183 GWSERV=3301
+
+ERROR       partner '35.224.43.183:3301' not reached
+TIME        Mon May 21 11:20:14 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3289
+DETAIL      NiPConnect2: 35.224.43.183:3301
+SYSTEM CALL connect
+ERRNO       10051
+ERRNO TEXT  WSAENETUNREACH: Network is unreachable
+COUNTER     4
+
+	return code: RFC_FAILURE (1)
+	error group: 102
+	key: RFC_ERROR_COMMUNICATION
+

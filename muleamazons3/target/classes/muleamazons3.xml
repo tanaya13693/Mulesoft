@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns:s3="http://www.mulesoft.org/schema/mule/s3" xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:spring="http://www.springframework.org/schema/beans" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-current.xsd
+http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/s3 http://www.mulesoft.org/schema/mule/s3/current/mule-s3.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd">
+    <http:listener-config name="HTTP_Listener_Configuration" host="0.0.0.0" port="8080" doc:name="HTTP Listener Configuration"/>
+	<s3:config name="Amazon_S3__Configuration" accessKey="AKIAJJHSDE4SSGF5JHDA" secretKey="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" doc:name="Amazon S3: Configuration"/>
+    <http:request-config name="HTTP_Request_Configuration" protocol="HTTPS" host="www.ucr.edu" port="443" doc:name="HTTP Request Configuration"/>
+    <flow name="muleamazona3Flow">
+        <http:listener config-ref="HTTP_Listener_Configuration" path="/amazons3Demo" doc:name="HTTP"/>
+        <s3:create-bucket config-ref="Amazon_S3__Configuration" bucketName="${bucketName}" acl="PUBLIC_READ" doc:name="Create Bucket"/>
+        <http:request config-ref="HTTP_Request_Configuration" path="/about" method="GET" doc:name="HTTP"/>
+        <s3:create-object config-ref="Amazon_S3__Configuration" bucketName="${bucketName}" key="aboutUcr.html" acl="BUCKET_OWNER_READ" doc:name="Create Object"/>
+        <s3:get-object-content config-ref="Amazon_S3__Configuration" bucketName="${bucketName}" key="aboutUcr.html" doc:name="Get Object Content"/>
+        <logger level="INFO" doc:name="Logger"/>
+    </flow>
+</mule>
